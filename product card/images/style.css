@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,500&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'montserrat', sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.container {
+    margin: 30px auto;
+    padding: 0 30px;
+    
+}
+
+.grid {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden; 
+}
+.img img {
+    max-width: 100%;
+    display: inherit;
+}
+.main_content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.heading_1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+} 
+.heading_2 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 34px;
+    line-height: 1em;
+    color: hsl(212, 21%, 14% );
+}
+.text_description {
+    line-height: 1.6em;
+    color: hsl (228, 12%, 48%);
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    
+}
+
+.current_price {
+    font-family: 'Fraunces', sans-serif;
+    color:   hsl(158, 36%, 37%);
+    font-size: 25px;
+    padding-right: 25px;
+
+}
+
+.old_price {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.add_button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    padding: 14px;
+    color: white;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: background-color .3s ease;
+}
+
+button img {
+    padding-right: 5px;
+}
+
+button:hover {
+    background-color: hsl(158, 36%, 20%);
+    cursor: pointer;
+}

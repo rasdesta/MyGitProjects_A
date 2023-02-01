@@ -1,0 +1,152 @@
+html {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.preview_container  {
+    display: flex;
+    position: absolute;
+    left: 35%;
+    top: 25%; 
+}
+.preview_container {
+    display: grid;
+    width: 450px;
+    height: 335px;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+/*.preview_container {
+    display: grid;
+    width: 450px;
+    height: 335px;
+    grid-template-columns: 160px 160px;
+    grid-template-rows: auto;
+    background-color: white;
+    gap: 5px;
+    border-radius: 5px;
+}
+*/
+/*.card_image*/ 
+img {
+    display: grid;
+    width: 225px;
+    height: 335px;
+    border-radius: 5px 0 0 5px;
+} 
+
+
+h4 {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    left: 250px;
+    font-family: 'Montserrat';
+    font-size: 8px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    padding: 15px 0;
+}
+
+h1 {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    left: 250px;
+    top: 15px;
+    font-size: 1.5rem;
+    line-height: 25px;
+    font-weight: 700;
+    font-family: 'Fraunces';
+    width: 180px;
+}
+
+p {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    left: 250px;
+    top: 130px;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: 'Montserrat';
+    line-height: 17px;
+    width: 180px;
+    color:  hsl(228, 12%, 48%);
+}
+
+h2 {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    top: 160px;
+    left: 250px;
+    font-family: 'Fraunces';
+    font-size: 22px;
+    margin: 70px 0;
+    color:  hsl(158, 36%, 37%);
+
+}
+h6 {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    top: 157px;
+    left: 350px;
+    color:  hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    padding: 55px 0;
+    
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 275px;
+    left: 250px;
+    height: 35px; 
+    width: 180px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: hsl(158, 36%, 37%);
+
+}
+
+button img {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    right: 5px;
+    width: 12px;
+    height: 12px;
+    
+}
+
+button  {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    left: 55%;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button:hover {
+    background-color: hsl(158, 61%, 14%);
+}
+
+@media only screen and (man-width: 375px) {
+    .preview_container {grid-template-columns: 1fr;
+    }
+}
+- Mobile: 375px
+- Desktop: 1440px
